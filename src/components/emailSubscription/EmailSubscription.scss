@@ -1,0 +1,42 @@
+.email-subscription {
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    &__label {
+      font-weight: 600;
+      font-size: 0.8em;
+      padding-right: 10px;
+    }
+  
+    &__input {
+      border: 1px solid #bbb;
+      padding: 8px 10px;
+      border-radius: 1px;
+      width: 200px;
+  
+      &::placeholder {
+        font-size: 0.8em;
+      }
+  
+      &:focus {
+        outline: none;
+        border: 1px solid black;
+      }
+    }
+  
+    &__button {
+      background-color: black;
+      color: white;
+      width: 220px;
+      border: none;
+      padding: 9px;
+      cursor: pointer;
+      &:hover {
+        background-color: #666;
+      }
+    }
+  }
+  
